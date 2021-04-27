@@ -1,0 +1,32 @@
+What is Node?
+    Node is a JS runtime environment that allows JS to run outside of the browser.
+
+What is the request-response cycle?
+    Traces how a user's request flows through the app. The request is what is asked of the server, response is what is sent back to the client. 
+
+What is the purpose of a server?
+    To listen on a port for incoming network requests from clients. 
+
+What's the package.json for?
+    It is a file that tracks basic info about a project including all dependencies and versions. 
+
+What are node_modules?
+    Libraries downloaded from npm that you can access.
+
+What is Express? 
+    A minimal, flexible Node.js framework that is great for building servers
+
+What does the listen method do? 
+    Listens on the server for a response. 
+
+What are some common status codes and what do they mean? 
+    Status 200 - means okay
+    Status 404 - means not found
+    Status 403 - means forbidden
+    Status 500 - means internal server error
+
+What is the difference between npm install package-name and npm install -g package-name?
+    One installs it in that current directory and -g installs it globally on your machine. 
+
+When should I use a query vs. a param and vice-versa? 
+    You would use a query is a more dynamic way to request specific info from an API - such as searching for a specific person with a name that matches a name you specify. You would use a param to request more specific info from an API - such as accessing a person with a specific id.  
